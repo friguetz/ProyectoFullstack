@@ -1,0 +1,33 @@
+Patrones de desarrollo de software
+
+Creacionales
+Estructurales
+Comportamentales
+
+-Sistemas monolíticos: Gestión de equipos grandes, una falla puede afectar todo el sistema, dificultad de interoperatividad, dificultad de mantenimiento, dificultad de actualización
+
+-Singleton:el servidor despliega una copia del software por cada usuario
+
+-Cliente servidor: Sistema centralizado, 
+
+-Patron de capas: los diferentes servicios se distribuyen en diferentes servidores especializados y a los cuales se accede por medio de capas. Dependiendo de la aplicación, se hace más o menos relevante la sincronización.
+
+-maestro-esclavo: patrón de capas accedidos desde un servidor maestro, los servicios son atendidos por los esclavos los cuales son accedidos y dirigidos por el maestro
+
+-patron P2P: Modelo de comunicación punto a punto, 
+
+-patron de tuberías y filtros: utilizados en sistemas que manejan muchos tipos de datos, se asemeja a una cadena de montaje en la cual se clasifican y procesan los datos paso a paso
+
+-patron intermediario - API gateway: similar al modelo maestro esclavo con la diferencia que los esclavos son especializados en un servicio y adicionalmente, se requiere la comunicación entre los diferente servicios o esclavos
+
+-patron bus de eventos: Se genera un esquema u objeto que consiste en un conjunto de eventos los cuales viajan a través de la red y que posteriormente se distribuye en diferentes canales en los cuales se asigna un evento.
+
+patron pizarra: Entorno compartido y colaborativo en el cual un grupo de usuarios pueden interactuar de manera conjunta con un único contenido
+
+esquema de microservicios: Equipos pequeños , componentes especializados, fácil escalabilidad, mantenible y reutilizable, idoneidad tecnológica
+
+
+Virtualización: Múltiples SO dentro de un mismo servidor, altamente complejo y pesado, poco eficiente
+
+Contenedores Docker: Se condensa únicamente el servicio a contener junto con sus requerimientos básicos. Son Flexibles, livianos, portables, de bajo acoplamiento, escalables.
+

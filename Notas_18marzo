@@ -1,0 +1,12 @@
+Instalar el git
+Instalar el Visual Studio Code
+
+apt-transport-https
+
+curl -sSL http://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+
+Google cloud gcp:
+
+kubernets engine (gestión de contenedores)
+
+Marco nube pública (a nivel de estado)
