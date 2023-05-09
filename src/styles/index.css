@@ -1,0 +1,40 @@
+body{
+ width: 80%;
+ margin: 0 auto;
+ border: 10px solid green;
+
+}
+
+img{
+  display: flex;
+  height:300px;
+  width: 50%;
+  margin: 0 auto;
+  border: 10px solid red;
+  padding: 10px;	;
+
+}
+p{
+ background-color: rgba(20, 112, 215, 0.1);
+ color : rgb(50,115,220)
+}
+
+*{
+  background-color: rgba(15, 50, 220, 0.1);
+}
+
+#parrafo-uno{
+    display: flex;
+    background-color: #03ff0;
+    height:150px;
+    width: 90%;
+    margin: 0 auto;
+    border: 10px solid red;
+    padding: 20px;
+  
+}
+
+.text-nivel-1{
+  background-color: hsla(10,80%,50%, 0.5)
+}
+}

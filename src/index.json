@@ -1,0 +1,20 @@
+{
+	"name": "Entren-arte",
+	"short name": "E-art",
+	"start_url" : "./html/index.html",
+	"display": "standalone",
+	"background-color": "rgba(20, 220, 0.1)",
+	"icons":{
+		"src":"./assets/img/icono.png",
+		"sizes": "72x72",
+		"type":"image/png"
+	},
+	"description": "Aplicacion de generación de rutinas de ejercicio.",
+	"orientation": "portrait",
+	"scope": "/",
+	"serviceworker":
+        {
+	       "src":"./assets/sw.js"
+        }
+		
+}
